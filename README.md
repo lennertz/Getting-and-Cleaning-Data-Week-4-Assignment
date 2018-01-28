@@ -16,8 +16,7 @@ Dependencies
 
 The script uses the following R libraries which need to be installed:
 
-    data.table
-    dplyr
+     dplyr
     
 Run
 
