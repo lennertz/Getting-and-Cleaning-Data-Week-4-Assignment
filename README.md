@@ -1,29 +1,29 @@
 # Getting-and-Cleaning-Data-Week-4-Assignment
 This is a repository for completing the peer graded assignment for week 4 of Johns Hopkins Coursera course
 
-Getting-and-Cleaning-Data-Week-4-Assignment
+Summary
 
-This repo was created to finish the assignment for week 4 of Getting and Cleaning Data Coursera course.
+The data set was derived from the 'UCI HAR Dataset' which is available at:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-    First, download and unzip the data file into your R working directory.
-    Second, download the R source code into your R working directory.
-    Finally, execute R source code to generate tidy data file.
+The purpose of the code is to merge subsets of the data into an intermediary (Data) and final tidy dataset (Data2, tidydata.txt) and to 
+extract variables to create a dataset including the averages for each measured activity and subject.
 
-Data description
+The data set consists of one single file:
+file://data/tidydata.txt
 
-The variables in the data X are sensor signals measured with waist-mounted smartphone from 30 subjects. The variable in the data Y indicates activity type the subjects performed during recording.
-Code explaination
+Run
 
-The code combined training dataset and test dataset, and extracted partial variables to create another dataset with the averages of each variable for each activity.
-New dataset
+Please note that the data files obtained will be zipped.  The file "run_analysis.R" includes procedures for obtaining the file, for unzipping ,
+and for loading the file into the working directory.
 
-The new generated dataset contained variables calculated based on the mean and standard deviation. Each row of the dataset is an average of each activity type for all subjects.
-The code was written based on the instruction of this assignment
+The script will create the result data file "tidy_dataset.txt" in the working directory. In order to see the results more clearly, please view 
+Data (cleaned data) and Data2 (tidy data) in Rstudio.
 
-Read training and test dataset into R environment. Read variable names into R envrionment. Read subject index into R environment.
+The script executes the following steps required for the assignment:
 
-    Merges the training and the test sets to create one data set. Use command rbind to combine training and test set
-    Extracts only the measurements on the mean and standard deviation for each measurement. Use grep command to get column indexes for variable name contains "mean()" or "std()"
-    Uses descriptive activity names to name the activities in the data set Convert activity labels to characters and add a new column as factor
-    Appropriately labels the data set with descriptive variable names. Give the selected descriptive names to variable columns
-    From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Use pipeline command to create a new tidy dataset with command group_by and summarize_each in dplyr package
+    Merges the training and the test sets to create one data set using the rbind command.
+    Extracts only the measurements on the mean and standard deviation for each measurement. 
+    Uses descriptive activity names to name the activities in the data set 
+    Appropriately labels the data set with descriptive variable names. Converts labels to more human readable text
+    From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
