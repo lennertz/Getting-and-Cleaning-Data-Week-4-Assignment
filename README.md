@@ -12,6 +12,13 @@ extract variables to create a dataset including the averages for each measured a
 The data set consists of one single file:
 file://data/tidydata.txt
 
+Dependencies
+
+The script uses the following R libraries which need to be installed:
+
+    data.table
+    dplyr
+    
 Run
 
 Please note that the data files obtained will be zipped.  The file "run_analysis.R" includes procedures for obtaining the file, for unzipping ,
