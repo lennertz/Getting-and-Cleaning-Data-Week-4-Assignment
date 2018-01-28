@@ -32,8 +32,8 @@ Activity Labels
 
 Variables overview
 
-Variable 	Column 	Class 	Explanation
-subject 	1 	factor 	ID of subject
-activity 	2 	factor 	Activity label
+    Variable 	Column 	Class 	Explanation
+    subject 	1 	factor 	ID of subject
+    activity 	2 	factor 	Activity label
 
 
