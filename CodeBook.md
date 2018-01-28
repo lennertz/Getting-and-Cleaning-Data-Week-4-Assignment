@@ -47,18 +47,18 @@ Variables overview
         timeBodyAccelerometer-std()-Z 	8	numeric	Measurement variable
         timeGravityAccelerometer-mean()-X 	9	numeric	Measurement variable
         timeGravityAccelerometer-mean()-Y 	10	numeric	Measurement variable
-        timeGravityAccelerometer-mean()-Z   	11	numeric	Measurement variable
+        timeGravityAccelerometer-mean()-Z   11	numeric	Measurement variable
         timeGravityAccelerometer-std()-X	12	numeric	Measurement variable
         timeGravityAccelerometer-std()-X	13	numeric	Measurement variable
         timeGravityAccelerometer-std()-Z   	14	numeric	Measurement variable
-        timeBodyAccelerometerJerk-mean()-X    	15	numeric	Measurement variable
+        timeBodyAccelerometerJerk-mean()-X  15	numeric	Measurement variable
         timeBodyAccelerometerJerk-mean()-Y	16	numeric	Measurement variable
         timeBodyAccelerometerJerk-mean()-Z 	17	numeric	Measurement variable
         timeBodyAccelerometerJerk-std()-X 	18	numeric	Measurement variable
-        timeBodyAccelerometerJerk-std()-Y   	19	numeric	Measurement variable
-        timeBodyAccelerometerJerk-std()-Z   	10	numeric	Measurement variable
+        timeBodyAccelerometerJerk-std()-Y   19	numeric	Measurement variable
+        timeBodyAccelerometerJerk-std()-Z  	10	numeric	Measurement variable
         timeBodyGyroscope-mean()-X 	12	numeric	Measurement variable
-        timeBodyGyroscope-mean()-Y   	22	numeric	Measurement variable
+        timeBodyGyroscope-mean()-Y  22	numeric	Measurement variable
         timeBodyGyroscope-mean()-Z 	23	numeric	Measurement variable
         timeBodyGyroscope-std()-X  	24	numeric	Measurement variable
         timeBodyGyroscope-std()-Y	25	numeric	Measurement variable
@@ -71,39 +71,39 @@ Variables overview
         timeBodyGyroscopeJerk-std()-Z	32	numeric	Measurement variable
         timeBodyAccelerometerMagnitude-mean()	33	numeric	Measurement variable
         timeBodyAccelerometerMagnitude-std()	34	numeric	Measurement variable
-timeGravitimeyAccelerometerMagnitude-mean()	35	numeric	Measurement variable
-timeGravitimeyAccelerometerMagnitude-std()	36	numeric	Measurement variable
-timeBodyAccelerometerJerkMagnitude-mean()	37	numeric	Measurement variable
-timeBodyAccelerometerJerkMagnitude.std()	38	numeric	Measurement variable
-timeBodyGyroscopeMagnitude-mean()	39	numeric	Measurement variable
-timeBodyGyroscopeMagnitude-std()	40	numeric	Measurement variable
-timeBodyGyroscopeJerkMagnitude-mean()	41	numeric	Measurement variable
-timeBodyGyroscopeJerkMagnitude-std()	42	numeric	Measurement variable
-frequencyBodyAccelerometer-mean()-X	43	numeric	Measurement variable
-frequencyBodyAccelerometer-mean()-Y	44	numeric	Measurement variable
-frequencyBodyAccelerometer-mean()-Z	45	numeric	Measurement variable
-frequencyBodyAccelerometer-std()-X	46	numeric	Measurement variable
-frequencyBodyAccelerometer-std()-Y	47	numeric	Measurement variable
-frequencyBodyAccelerometer-std()-Z	48	numeric	Measurement variable
-frequencyBodyAccelerometerJerk-mean()-X	49	numeric	Measurement variable
-frequencyBodyAccelerometerJerk-mean()-Y	50	numeric	Measurement variable
-frequencyBodyAccelerometerJerk-mean()-Z	51	numeric	Measurement variable
-frequencyBodyAccelerometerJerk-std()-X	52	numeric	Measurement variable
-frequencyBodyAccelerometerJerk-std()-Y	53	numeric	Measurement variable
-frequencyBodyAccelerometerJerk-std()-Z	54	numeric	Measurement variable
-frequencyBodyGyroscope-mean()-X	55	numeric	Measurement variable
-frequencyBodyGyroscope-mean()-Y	56	numeric	Measurement variable
-frequencyBodyGyroscope-mean()-Z	57	numeric	Measurement variable
-frequencyBodyGyroscope-std()-X	58	numeric	Measurement variable
-frequencyBodyGyroscope-std()-Y	59	numeric	Measurement variable
-frequencyBodyGyroscope-std()-Z	60	numeric	Measurement variable
-frequencyBodyAccelerometerMagnitude-mean()	61	numeric	Measurement variable
-frequencyBodyAccelerometerMagnitude.std()	62	numeric	Measurement variable
-frequencyBodyAccelerometerJerkMagnitude-mean() 	63	numeric	Measurement variable
-frequencyBodyAccelerometerJerkMagnitude.std()	64	numeric	Measurement variable
-frequencyBodyGyroscopeMagnitude-mean()	65	numeric	Measurement variable
-frequencyBodyGyroscopeMagnitude.std()	66	numeric	Measurement variable
-frequencyBodyGyroscopeJerkMagnitude-mean()	67	numeric	Measurement variable
-frequencyBodyGyroscopeJerkMagnitude.std()	68	numeric	Measurement variable
+        timeGravitimeyAccelerometerMagnitude-mean()	35	numeric	Measurement variable
+        timeGravitimeyAccelerometerMagnitude-std()	36	numeric	Measurement variable
+        timeBodyAccelerometerJerkMagnitude-mean()	37	numeric	Measurement variable
+        timeBodyAccelerometerJerkMagnitude.std()	38	numeric	Measurement variable
+        timeBodyGyroscopeMagnitude-mean()	39	numeric	Measurement variable
+        timeBodyGyroscopeMagnitude-std()	40	numeric	Measurement variable
+        timeBodyGyroscopeJerkMagnitude-mean()	41	numeric	Measurement variable
+        timeBodyGyroscopeJerkMagnitude-std()	42	numeric	Measurement variable
+        frequencyBodyAccelerometer-mean()-X	43	numeric	Measurement variable
+        frequencyBodyAccelerometer-mean()-Y	44	numeric	Measurement variable
+        frequencyBodyAccelerometer-mean()-Z	45	numeric	Measurement variable
+        frequencyBodyAccelerometer-std()-X	46	numeric	Measurement variable
+        frequencyBodyAccelerometer-std()-Y	47	numeric	Measurement variable
+        frequencyBodyAccelerometer-std()-Z	48	numeric	Measurement variable
+        frequencyBodyAccelerometerJerk-mean()-X	49	numeric	Measurement variable
+        frequencyBodyAccelerometerJerk-mean()-Y	50	numeric	Measurement variable
+        frequencyBodyAccelerometerJerk-mean()-Z	51	numeric	Measurement variable
+        frequencyBodyAccelerometerJerk-std()-X	52	numeric	Measurement variable
+        frequencyBodyAccelerometerJerk-std()-Y	53	numeric	Measurement variable
+        frequencyBodyAccelerometerJerk-std()-Z	54	numeric	Measurement variable
+        frequencyBodyGyroscope-mean()-X	55	numeric	Measurement variable
+        frequencyBodyGyroscope-mean()-Y	56	numeric	Measurement variable
+        frequencyBodyGyroscope-mean()-Z	57	numeric	Measurement variable
+        frequencyBodyGyroscope-std()-X	58	numeric	Measurement variable
+        frequencyBodyGyroscope-std()-Y	59	numeric	Measurement variable
+        frequencyBodyGyroscope-std()-Z	60	numeric	Measurement variable
+        frequencyBodyAccelerometerMagnitude-mean()	61	numeric	Measurement variable
+        frequencyBodyAccelerometerMagnitude.std()	62	numeric	Measurement variable
+        frequencyBodyAccelerometerJerkMagnitude-mean() 	63	numeric	Measurement variable
+        frequencyBodyAccelerometerJerkMagnitude.std()	64	numeric	Measurement variable
+        frequencyBodyGyroscopeMagnitude-mean()	65	numeric	Measurement variable
+        frequencyBodyGyroscopeMagnitude.std()	66	numeric	Measurement variable
+        frequencyBodyGyroscopeJerkMagnitude-mean()	67	numeric	Measurement variable
+        frequencyBodyGyroscopeJerkMagnitude.std()	68	numeric	Measurement variable
 
 
